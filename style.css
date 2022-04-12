@@ -99,7 +99,7 @@
   align-items: center;
   height: 900px;
   position: relative;
-  background-image:url("/picture/shoe1.jpg");
+  background-image:url("picture/Shoe1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
