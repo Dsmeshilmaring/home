@@ -1,0 +1,264 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.main {
+  margin-left: 10px;
+}
+
+.container {
+  flex-direction: column;
+  width: 1500px;
+  height: auto;
+  background-color: rgba(189, 214, 236, 0.432);
+}
+
+/* ---------------- Heading ---------------------- */
+
+.header {
+  margin-top: 5px;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  gap: 5px;
+}
+
+.menu {
+  flex-grow: 1;
+  background-color: rgb(70, 70, 11);
+}
+
+.logo {
+  width: 80px;
+  background-color: beige;
+}
+
+.fa-google {
+  font-size: 50px;
+}
+
+.search-layout {
+  flex-grow: 6;
+  background-color: aqua;
+}
+
+.search {
+  font-size: 40px;
+  height: 50px;
+  width: 100%;
+}
+
+.search-button {
+  width: 50px;
+  height: 50px;
+}
+
+.fa-magnifying-glass {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.account {
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.home {
+  flex-grow: 1;
+  background-color: beige;
+}
+
+.fa-user {
+  align-self: center;
+  font-size: 30px;
+}
+
+.cart {
+  align-self: center;
+  width: 50px;
+  font-size: 30px;
+}
+
+
+.fa-cart-shopping {
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+/* ----------------------------- ShowOff ----------------------- */
+.showOff {
+  display: flex;
+  align-items: center;
+  height: 900px;
+  position: relative;
+  background-image:url("/picture/shoe1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.showOff-textBox {
+  margin: 0px 0px 0px 20px;
+  height: 250px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgb(249, 250, 249);
+  opacity: 0.7;
+  box-shadow: 8px 8px 8px  rgba(0, 0, 0, 0.295);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showOff-textBox :hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.showOff-textBox h1 {
+  margin-top: 20px;
+}
+
+.showOff-button {
+  margin-top: 50px;
+  height: 50px;
+  width: 150px;
+  background-color: rgba(219, 130, 130, 0.986);
+  box-shadow: 8px 8px 8px  rgba(0, 0, 0, 0.295);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------------- Layout 2 ----------------------- */
+.layout2 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.box-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.box-container::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 221, 221);
+}
+
+.layout2-text {
+  height: 60px;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 40px;
+  align-self: flex-start;
+  background-color: rgba(255, 255, 255, 0.301);
+}
+
+.box {
+  flex: 0 0 auto;
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+}
+
+/*------------- Layout 3 -----------------------*/
+.layout3 {
+  width: inherit;
+  height: 900px;
+  background-color: rgba(252, 252, 255, 0.279);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.layout3-container {
+  width: 300px;
+  height: 330px;
+  background-color: rgb(233, 190, 190);
+}
+
+.layout3-text {
+  width: inherit;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.layout3-small-container {
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.layout3-box {
+  height: 120px;
+  background-color: yellowgreen;
+}
+
+/* -------------------- Layout 4 ----------------- */
+.layout4-container {
+  width: inherit;
+  height: auto;
+  display: grid;
+}
+
+.layout4-container-row::-webkit-scrollbar {
+  height: 10px;
+}
+
+.layout4-container-row::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 221, 221);
+  border-radius: 20px;
+}
+
+.layout4-container-row::-webkit-scrollbar-thumb:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.layout4-container-row::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+
+.layout4-container-row {
+  width: inherit;
+  height: 400px;
+  background-color: brown;
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  overflow-x: scroll;
+  align-items: flex-end;
+}
+
+
+/* ------------------- Footer ------------------ */
+.footer {
+  width: inherit;
+  height: 1000px;
+  background-color: rgb(255, 255, 94);
+}
